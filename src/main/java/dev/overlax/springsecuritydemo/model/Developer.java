@@ -11,5 +11,5 @@ public class Developer {
 
     private Long id;
     private String firstName;
-    private String last_name;
+    private String lastName;
 }
