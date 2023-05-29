@@ -1,5 +1,6 @@
 package dev.overlax.springsecuritydemo.config;
 
+import dev.overlax.springsecuritydemo.model.Permission;
 import dev.overlax.springsecuritydemo.model.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,9 +25,9 @@ public class SecurityConfig {
                 .csrf().disable()
                 .authorizeHttpRequests((authorize) -> authorize
                         .antMatchers("/").permitAll()
-                        .antMatchers(HttpMethod.GET, "/api/**").hasAnyRole(Role.ADMIN.name(), Role.USER.name())
-                        .antMatchers(HttpMethod.POST, "/api/**").hasRole(Role.ADMIN.name())
-                        .antMatchers(HttpMethod.DELETE, "/api/**").hasRole(Role.ADMIN.name())
+                        .antMatchers(HttpMethod.GET, "/api/**").hasAuthority(Permission.DEVELOPERS_READ.getPermissions())
+                        .antMatchers(HttpMethod.POST, "/api/**").hasAuthority(Permission.DEVELOPERS_WRITE.getPermissions())
+                        .antMatchers(HttpMethod.DELETE, "/api/**").hasAuthority(Permission.DEVELOPERS_WRITE.getPermissions())
                         .anyRequest().authenticated()
                 )
                 .httpBasic(withDefaults())
@@ -42,13 +43,13 @@ public class SecurityConfig {
         UserDetails alex = User.builder()
                 .username("alex")
                 .password(passwordEncoder().encode("alex"))
-                .roles("USER")
+                .authorities(Role.USER.getAuthority())
                 .build();
 
         UserDetails user = User.builder()
                 .username("admin")
                 .password(passwordEncoder().encode("admin"))
-                .roles("ADMIN")
+                .authorities(Role.ADMIN.getAuthority())
                 .build();
 
         return new InMemoryUserDetailsManager(alex, user);
