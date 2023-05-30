@@ -13,8 +13,6 @@ import java.util.stream.Stream;
 @RequestMapping("/api/v1/developers")
 public class DeveloperRestControllerV1 {
 
-    String permissionRead = Permission.DEVELOPERS_WRITE.getPermissions();
-
     private List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L, "Ivan", "Ivanov"),
             new Developer(2L, "Sergey", "Sergeev"),
