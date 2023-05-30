@@ -1,7 +1,6 @@
 package dev.overlax.springsecuritydemo.rest;
 
 import dev.overlax.springsecuritydemo.model.Developer;
-import dev.overlax.springsecuritydemo.model.Permission;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,8 +11,6 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/api/v1/developers")
 public class DeveloperRestControllerV1 {
-
-    String permissionRead = Permission.DEVELOPERS_WRITE.getPermissions();
 
     private List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L, "Ivan", "Ivanov"),
