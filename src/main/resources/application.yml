@@ -4,3 +4,8 @@ spring:
     username: user
     password: password
     driver-class-name: org.postgresql.Driver
+
+jwt:
+  header: Authorization
+  secret: 6A576E5A7234753778217A25432A462D4A614E645267556B5870327335763879
+  expiration: 604800
