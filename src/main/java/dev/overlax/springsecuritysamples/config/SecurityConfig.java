@@ -1,7 +1,7 @@
-package dev.overlax.springsecuritydemo.config;
+package dev.overlax.springsecuritysamples.config;
 
-import dev.overlax.springsecuritydemo.model.Permission;
-import dev.overlax.springsecuritydemo.model.Role;
+import dev.overlax.springsecuritysamples.model.Permission;
+import dev.overlax.springsecuritysamples.model.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
