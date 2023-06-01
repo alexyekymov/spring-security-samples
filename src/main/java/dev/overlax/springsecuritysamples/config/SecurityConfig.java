@@ -1,6 +1,6 @@
-package dev.overlax.springsecuritydemo.config;
+package dev.overlax.springsecuritysamples.config;
 
-import dev.overlax.springsecuritydemo.security.JwtTokenFilter;
+import dev.overlax.springsecuritysamples.security.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

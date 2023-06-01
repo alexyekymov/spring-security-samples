@@ -1,7 +1,7 @@
-package dev.overlax.springsecuritydemo.security;
+package dev.overlax.springsecuritysamples.security;
 
-import dev.overlax.springsecuritydemo.model.Status;
-import dev.overlax.springsecuritydemo.model.User;
+import dev.overlax.springsecuritysamples.model.Status;
+import dev.overlax.springsecuritysamples.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

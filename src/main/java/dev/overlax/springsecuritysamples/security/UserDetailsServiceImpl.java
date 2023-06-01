@@ -1,7 +1,7 @@
-package dev.overlax.springsecuritydemo.security;
+package dev.overlax.springsecuritysamples.security;
 
-import dev.overlax.springsecuritydemo.model.User;
-import dev.overlax.springsecuritydemo.repository.UserRepository;
+import dev.overlax.springsecuritysamples.model.User;
+import dev.overlax.springsecuritysamples.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

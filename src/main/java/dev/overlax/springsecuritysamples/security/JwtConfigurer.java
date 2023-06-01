@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.security;
+package dev.overlax.springsecuritysamples.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
