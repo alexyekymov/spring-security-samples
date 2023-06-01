@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.config;
+package dev.overlax.springsecuritysamples.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

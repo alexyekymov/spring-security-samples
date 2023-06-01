@@ -1,6 +1,6 @@
-package dev.overlax.springsecuritydemo.repository;
+package dev.overlax.springsecuritysamples.repository;
 
-import dev.overlax.springsecuritydemo.model.User;
+import dev.overlax.springsecuritysamples.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.controller;
+package dev.overlax.springsecuritysamples.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

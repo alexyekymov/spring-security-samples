@@ -1,7 +1,6 @@
-package dev.overlax.springsecuritydemo.rest;
+package dev.overlax.springsecuritysamples.rest;
 
-import dev.overlax.springsecuritydemo.model.Developer;
-import dev.overlax.springsecuritydemo.model.Permission;
+import dev.overlax.springsecuritysamples.model.Developer;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

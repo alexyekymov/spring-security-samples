@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.model;
+package dev.overlax.springsecuritysamples.model;
 
 import lombok.Data;
 
