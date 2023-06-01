@@ -1,8 +1,8 @@
-package dev.overlax.springsecuritydemo.rest;
+package dev.overlax.springsecuritysamples.rest;
 
-import dev.overlax.springsecuritydemo.model.User;
-import dev.overlax.springsecuritydemo.repository.UserRepository;
-import dev.overlax.springsecuritydemo.security.JwtTokenProvider;
+import dev.overlax.springsecuritysamples.model.User;
+import dev.overlax.springsecuritysamples.repository.UserRepository;
+import dev.overlax.springsecuritysamples.security.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

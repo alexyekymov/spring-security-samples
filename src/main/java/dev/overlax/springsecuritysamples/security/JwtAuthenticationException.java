@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.security;
+package dev.overlax.springsecuritysamples.security;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

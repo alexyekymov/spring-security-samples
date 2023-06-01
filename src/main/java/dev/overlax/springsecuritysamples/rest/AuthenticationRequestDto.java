@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.rest;
+package dev.overlax.springsecuritysamples.rest;
 
 import lombok.Data;
 

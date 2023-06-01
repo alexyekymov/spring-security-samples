@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.security;
+package dev.overlax.springsecuritysamples.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

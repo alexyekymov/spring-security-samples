@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.overlax</groupId>
-    <artifactId>springsecuritydemo</artifactId>
+    <artifactId>springsecuritysamples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringSecurityDemo</name>
-    <description>SpringSecurityDemo</description>
+    <name>SpringSecuritySamples</name>
+    <description>SpringSecuritySamples</description>
     <properties>
         <java.version>17</java.version>
         <jjwt.version>0.11.5</jjwt.version>
