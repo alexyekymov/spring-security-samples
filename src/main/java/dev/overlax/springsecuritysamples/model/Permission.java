@@ -1,4 +1,4 @@
-package dev.overlax.springsecuritydemo.model;
+package dev.overlax.springsecuritysamples.model;
 
 public enum Permission {
     DEVELOPERS_READ("developer:read"),
